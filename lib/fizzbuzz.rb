@@ -7,6 +7,7 @@ class Integer
     elsif (self % 5 == 0)
       return 'buzz'
     else
+      return self
     end
   end
 end

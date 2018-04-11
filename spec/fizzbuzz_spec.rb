@@ -9,4 +9,7 @@ describe'fizzbuzz'do
   it 'return "fizzbuzz" when divisble by multipels of 5 and 3'do
     expect(15.fizzbuzz).to eq 'fizzbuzz'
   end
+  it 'return number when not divisble by 3 or 5' do
+      expect(2.fizzbuzz).to eq 2
+  end
 end
