@@ -13,4 +13,7 @@ describe 'fizzbuzz' do
     it 'returns number when passed a number which is not 3, 5 or multiple of 3 and 5'do
       expect(fizzbuzz(2)).to eq 2 
     end
+    it 'returns an error when passed anything but a number'do
+        expect(fizzbuzz("a")).to eq "Error"
+    end
 end
