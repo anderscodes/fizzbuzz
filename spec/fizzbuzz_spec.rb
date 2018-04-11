@@ -7,4 +7,7 @@ describe 'fizzbuzz' do
     it 'returns "buzz" when passed 5'do
       expect(fizzbuzz(5)).to eq 'buzz'
     end
+    it 'returns "Fizzbuzz" when passed a multiple of 3 or 5' do
+        expect(fizzbuzz(15)).to eq 'Fizzbuzz'
+    end
 end
